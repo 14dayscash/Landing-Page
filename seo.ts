@@ -29,7 +29,7 @@ export function metaFor(pathname: string): PageMeta {
     if (post) {
       return {
         path,
-        title: `${post.title} - ${site.name}`,
+        title: post.metaTitle || `${post.title} - ${site.name}`,
         description: post.description,
       };
     }

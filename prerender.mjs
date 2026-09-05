@@ -42,6 +42,37 @@ function personSchema() {
   };
 }
 
+function stripTags(value) {
+  return value
+    .replace(/<[^>]+>/g, "")
+    .replace(/&amp;/g, "&")
+    .replace(/&#39;|&#x27;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+// Pulls "**Question?**\nAnswer" pairs out of the rendered FAQ section so the
+// post is eligible for FAQ rich results.
+function faqSchema(post) {
+  const section = post.html.split(/<h2[^>]*>\s*Frequently asked questions\s*<\/h2>/i)[1];
+  if (!section) return null;
+  const body = section.split(/<h2/)[0];
+  const pairs = [...body.matchAll(/<p><strong>([\s\S]*?)<\/strong>([\s\S]*?)<\/p>/g)]
+    .map((m) => ({ q: stripTags(m[1]), a: stripTags(m[2]) }))
+    .filter((pair) => pair.q.endsWith("?") && pair.a.length > 20);
+  if (pairs.length < 2) return null;
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: pairs.map((pair) => ({
+      "@type": "Question",
+      name: pair.q,
+      acceptedAnswer: { "@type": "Answer", text: pair.a },
+    })),
+  };
+}
+
 function articleSchema(post, url) {
   return {
     "@context": "https://schema.org",
@@ -73,7 +104,17 @@ for (const route of routes) {
     `<script type="application/ld+json">${JSON.stringify(
       post ? articleSchema(post, canonical) : personSchema(),
     )}</script>`,
-  ].join("\n    ");
+  ]
+    .concat(
+      post && faqSchema(post)
+        ? [
+            `<script type="application/ld+json">${JSON.stringify(
+              faqSchema(post),
+            )}</script>`,
+          ]
+        : [],
+    )
+    .join("\n    ");
 
   const html = template
     .replace(/\s*<link rel="canonical"[^>]*>/, "")

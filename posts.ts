@@ -3,6 +3,7 @@ import { marked } from "marked";
 export type Post = {
   slug: string;
   title: string;
+  metaTitle: string;
   description: string;
   date: string;
   html: string;
@@ -43,6 +44,7 @@ export const posts: Post[] = Object.entries(raw)
     return {
       slug,
       title: data.title || slug,
+      metaTitle: data.metaTitle || "",
       description: data.description || "",
       date: data.date || "",
       html: marked.parse(body) as string,
