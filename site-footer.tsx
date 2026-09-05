@@ -1,4 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Container } from "./container";
 import { nav, site } from "./site";
 
@@ -44,12 +45,12 @@ export function SiteFooter() {
             <ul className="mt-3 space-y-2">
               {nav.map((item) => (
                 <li key={item.href}>
-                  <a
-                    href={item.href}
+                  <Link
+                    to={item.href}
                     className="text-sm text-muted-foreground transition-colors duration-quick ease-smooth hover:text-accent"
                   >
                     {item.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

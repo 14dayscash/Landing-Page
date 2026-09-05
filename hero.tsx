@@ -1,5 +1,6 @@
 import houseJunkiesLogo from "./logo-house-junkies.png";
 import { ArrowDownRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Button } from "./button";
 import { Container } from "./container";
 import { stats } from "./portfolio";
@@ -31,7 +32,7 @@ export function Hero() {
                 </a>
               </Button>
               <Button asChild variant="outline">
-                <a href="#work">Work Experience</a>
+                <Link to="/work">Work Experience</Link>
               </Button>
             </div>
           </div>

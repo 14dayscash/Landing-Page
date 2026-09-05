@@ -1,5 +1,6 @@
 import mcclellandLogo from "./logo-mcclelland.png";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "./button";
 import { Container } from "./container";
@@ -41,8 +42,8 @@ export function SiteHeader() {
       data-menu-root=""
     >
       <Container className="flex h-16 items-center justify-between gap-4 sm:h-20">
-        <a
-          href="#top"
+        <Link
+          to="/"
           className="flex items-center gap-3.5 text-foreground"
           onClick={() => setOpen(false)}
         >
@@ -56,20 +57,20 @@ export function SiteHeader() {
           <span className="text-[0.9375rem] font-semibold tracking-tight">
             {site.shortName}
           </span>
-        </a>
+        </Link>
 
         <nav className="hidden items-center gap-9 md:flex" aria-label="Primary">
           {nav.map((item) => (
-            <a
+            <Link
               key={item.href}
-              href={item.href}
+              to={item.href}
               className="text-sm text-muted-foreground transition-colors duration-quick ease-smooth hover:text-foreground"
             >
               {item.label}
-            </a>
+            </Link>
           ))}
           <Button asChild size="sm">
-            <a href="#contact">Inquire</a>
+            <Link to="/#contact">Inquire</Link>
           </Button>
         </nav>
 
@@ -94,14 +95,14 @@ export function SiteHeader() {
       >
         <Container className="flex flex-col py-4">
           {nav.map((item) => (
-            <a
+            <Link
               key={item.href}
-              href={item.href}
+              to={item.href}
               onClick={() => setOpen(false)}
               className="flex min-h-14 items-center border-b border-rule text-2xl font-semibold tracking-tight text-foreground transition-colors duration-quick ease-smooth active:text-accent"
             >
               {item.label}
-            </a>
+            </Link>
           ))}
           <a
             href={site.phoneHref}
