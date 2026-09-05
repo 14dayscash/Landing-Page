@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Black / white / yellow - soft neutrals, nothing pure, nothing harsh */
+  --color-background: #0d0d0d;
+  --color-foreground: #e8e8e6;
+  --color-muted: #1a1a1a;
+  --color-muted-foreground: #9b9b98;
+  --color-card: #151515;
+  --color-card-foreground: #e8e8e6;
+  --color-border: #2e2e2e;
+  --color-rule: #262626;
+  --color-primary: #ffd233;
+  --color-primary-foreground: #171512;
+  --color-accent: #ffd233;
+  --color-accent-foreground: #171512;
+  --color-ring: #ffd233;
+  --color-subtle: #6f6f6c;
+  --color-paper: #e8e8e6;
+  --color-ink: #0d0d0d;
+  --color-wash: #111111;
+
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+
+  --text-display: clamp(2.75rem, 8.5vw, 6.5rem);
+  --text-title: clamp(1.75rem, 3.6vw, 2.75rem);
+  --text-lede: clamp(1rem, 1.1vw, 1.125rem);
+
+  --leading-display: 0.95;
+  --leading-title: 1.1;
+
+  --tracking-display: -0.035em;
+  --tracking-caps: 0.1em;
+
+  --ease-smooth: cubic-bezier(0.32, 0.72, 0, 1);
+  --duration-quick: 140ms;
+  --duration-fast: 220ms;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: var(--color-accent-foreground);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@utility font-display {
+  font-family: var(--font-display);
+  font-weight: 700;
+}
+
+/* Small uppercase label - the recurring wayfinding element */
+@utility label-mono {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+@utility layer-root {
+  isolation: isolate;
+}
+
+.stagger-in > * {
+  animation: rise var(--duration-fast) ease-out both;
+}
+
+.stagger-in > *:nth-child(1) {
+  animation-delay: 30ms;
+}
+.stagger-in > *:nth-child(2) {
+  animation-delay: 90ms;
+}
+.stagger-in > *:nth-child(3) {
+  animation-delay: 150ms;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stagger-in > * {
+    animation: none;
+  }
+}
