@@ -38,13 +38,13 @@ According to SFR Analytics, an independent third-party data source, Ulloa Invest
 
 There is no mystery to it. Every cash offer House Junkies makes comes from the same four-part arithmetic, and I will walk any seller through it line by line.
 
-**1. After-repair value (ARV).** What the house sells for once it is fully renovated, based on what comparable finished homes in your specific Visalia neighborhood actually closed at in the last few months. Not Zestimates. Closed comps.
+**1. After-Repair Value (ARV).** What the house sells for once it is fully renovated, based on what comparable finished homes in your specific Visalia neighborhood actually closed at in the last few months. Not Zestimates. Closed comps.
 
-**2. Rehab cost.** What it takes to get it there. Roof, HVAC, electrical, kitchen, flooring, whatever the house needs. Because House Junkies Construction is in-house, our rehab number is a real construction estimate, not a padded guess with a cushion built in to protect a subcontractor bid.
+**2. Rehab Costs.** What it takes to get it there. Roof, HVAC, electrical, kitchen, flooring, whatever the house needs. Because House Junkies Construction is in-house, our rehab number is a real construction estimate, not a padded guess with a cushion built in to protect a subcontractor bid.
 
-**3. Holding and closing costs.** Property taxes, insurance, utilities, and the commissions we pay on the back end when we resell it.
+**3. Holding and Closing Costs.** Property taxes, insurance, utilities, and the commissions we pay on the back end when we resell it.
 
-**4. Margin.** What is left has to justify the risk, or the deal does not pencil and I will tell you so.
+**4. Profit Margin.** What is left has to justify the risk, or the deal does not pencil and I will tell you so.
 
 Work backward from the after-repair value, subtract rehab, subtract holding and closing, subtract margin, and you land on the offer.
 
