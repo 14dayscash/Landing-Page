@@ -78,18 +78,17 @@ export function SiteFooter() {
                   className="inline-flex items-center gap-1 text-sm text-muted-foreground transition-colors duration-quick ease-smooth hover:text-accent"
                 >
                   Instagram
-                  <span className="text-subtle">{site.instagramHandle}</span>
                   <ArrowUpRight className="size-3.5" />
                 </a>
               </li>
               <li>
                 <a
-                  href={site.linkedin}
+                  href={site.facebook}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-1 text-sm text-muted-foreground transition-colors duration-quick ease-smooth hover:text-accent"
                 >
-                  LinkedIn
+                  Facebook
                   <ArrowUpRight className="size-3.5" />
                 </a>
               </li>
@@ -101,7 +100,17 @@ export function SiteFooter() {
                   className="inline-flex items-center gap-1 text-sm text-muted-foreground transition-colors duration-quick ease-smooth hover:text-accent"
                 >
                   YouTube
-                  <span className="text-subtle">{site.youtubeHandle}</span>
+                  <ArrowUpRight className="size-3.5" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href={site.linkedin}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-1 text-sm text-muted-foreground transition-colors duration-quick ease-smooth hover:text-accent"
+                >
+                  LinkedIn
                   <ArrowUpRight className="size-3.5" />
                 </a>
               </li>

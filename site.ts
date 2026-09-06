@@ -17,9 +17,8 @@ export const site = {
   emailAltHref: "mailto:14dayscash@gmail.com",
   linkedin: "https://linkedin.com/in/dominicmcclelland",
   instagram: "https://instagram.com/dmcclelland_",
-  instagramHandle: "@dmcclelland_",
+  facebook: "https://www.facebook.com/mcclelland.dominic/",
   youtube: "https://youtube.com/@HouseJunkiesYT",
-  youtubeHandle: "@HouseJunkiesYT",
   quote: "We're taking over, one street at a time!",
   roles: [
     "Operations Manager, House Junkies Inc.",
