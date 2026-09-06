@@ -6,6 +6,7 @@ export const site = {
     "Operations Manager at House Junkies Inc. and Partner at Ulloa Investment Group. Vertically integrated real estate in Visalia, California.",
   location: "Visalia, California",
   address: "801 W Main Street, Visalia, California 93291",
+  addressHref: "https://maps.app.goo.gl/YMx3NAqPGDSD3C5K6",
   phone: "(559) 368-8956",
   phoneHref: "tel:+15593688956",
   phoneAlt: "(559) 302-9865",

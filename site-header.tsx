@@ -70,7 +70,7 @@ export function SiteHeader() {
             </Link>
           ))}
           <Button asChild size="sm">
-            <Link to="/#contact">Inquire</Link>
+            <Link to="/#contact">Send Message</Link>
           </Button>
         </nav>
 

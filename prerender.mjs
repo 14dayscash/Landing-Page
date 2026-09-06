@@ -100,7 +100,13 @@ for (const route of routes) {
     `<meta property="og:title" content="${escapeAttr(meta.title)}" />`,
     `<meta property="og:description" content="${escapeAttr(meta.description)}" />`,
     `<meta property="og:url" content="${canonical}" />`,
+    `<meta property="og:image" content="${ORIGIN}/logo-house-junkies.png" />`,
+    `<meta property="og:image:width" content="1200" />`,
+    `<meta property="og:image:height" content="630" />`,
     `<meta name="twitter:card" content="summary_large_image" />`,
+    `<meta name="twitter:image" content="${ORIGIN}/logo-house-junkies.png" />`,
+    `<meta name="twitter:site" content="@dmcclelland_" />`,
+    `<meta name="twitter:creator" content="@dmcclelland_" />`,
     `<script type="application/ld+json">${JSON.stringify(
       post ? articleSchema(post, canonical) : personSchema(),
     )}</script>`,

@@ -51,7 +51,7 @@ export function About() {
               </p>
               <p className="pt-6">
                 Currently pursuing a Business Administration degree at College
-                of the Sequoias. We taking over, one street at a time!
+                of the Sequoias. We are taking over, one street at a time!
               </p>
             </div>
           </div>

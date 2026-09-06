@@ -15,7 +15,9 @@ export function SiteFooter() {
           <div className="lg:col-span-5">
             <p className="label-mono text-accent">Get in Contact</p>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              {site.address}
+              <a href={site.addressHref} target="_blank" rel="noreferrer" className="hover:underline">
+                {site.address}
+              </a>
             </p>
             <p className="mt-3 text-sm text-foreground">
               <a href={site.phoneHref} className="hover:underline">
