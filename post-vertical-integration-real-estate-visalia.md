@@ -17,11 +17,11 @@ That is not a marketing line. It is an operating structure, and it changes what 
 
 ## Our Three Branches of The Ulloa Investment Group
 
-**House Junkies Inc - We Buy.** The acquisitions and investment arm. This is the side I run day to day. We make cash offers on properties in any condition, close quickly, and buy as-is. 350+ completed projects. According to SFR Analytics, an independent third-party data source, we are the #1 investment company in Visalia by volume. No repairs, no commissions, no cleaning, no stress. Our main office is at 1814 West Dorothea Ave in Visalia.
+**House Junkies Inc - We Buy.** The acquisitions and investment arm. This is the side I run day to day. We make cash offers on properties in any condition, close quickly, and buy as-is. 350+ completed projects. According to SFR Analytics, an independent third-party data source, we are the #1 investment company in Visalia by volume. No repairs, no commissions, no cleaning, no stress. Our main office is at 801 West Main Street in Visalia.
 
 **House Junkies Construction - We Build.** Our licensed California general contractor crew, LIC #1077593, bonded and insured. Located at 1640 West Mineral King Ave here in Visalia. Complete home renovations, kitchen and bathroom remodels, demolition, ground-up new construction, and full ADU builds from design through permitting to turnkey delivery. Most investors call three subcontractors and wait a week for bids before they can price your house. We do not. The people who will do the work already told us what it costs, because they work here.
 
-**Legacy Real Estate - We Sell.** The brokerage arm. DRE #02165291, main office at 801 West Main Street in Visalia. Lead by Ms. Jenny Madrid our Broker of Record. Professional listing services, maximum market exposure, buyer representation, investment property specialists, and a mentee program for agents building a career. Averaging 80+ sales and over $30,000,000 in closed volume per month. This one matters more than sellers expect.
+**Legacy Real Estate - We Sell.** The brokerage arm. DRE #02165291, main office at 1814 West Dorothea Ave in Visalia. Lead by Ms. Jenny Madrid our Broker of Record. Professional listing services, maximum market exposure, buyer representation, investment property specialists, and a mentee program for agents building a career. Averaging 80+ sales and over $30,000,000 in closed volume per month. This one matters more than sellers expect.
 
 ## Acquire, Renovate, Sell, Repeat
 
