@@ -89,8 +89,8 @@ export function Contact() {
             />
             <p className="mt-6 max-w-md text-lede text-muted-foreground">
               Off-market deals, investment consultations, and partnership
-              questions. Direct line is below, or use the form and it stays on
-              this device until we connect.
+              questions. Use the form to get in contact, response in less than 24
+              hours or my direct line is below.
             </p>
             <ul className="mt-10 divide-y divide-rule rounded-lg border border-border bg-card">
               <li className="p-5">
@@ -180,23 +180,29 @@ export function Contact() {
             </div>
             <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <p className="text-sm text-subtle">
-                Use the form to get in contact, response in less than 24 hours or my direct line is below.
+                Direct email also works -{" "}
+                <a
+                  href={site.emailHref}
+                  className="text-foreground hover:text-accent"
+                >
+                  {site.email}
+                </a>
               </p>
               <Button type="submit" disabled={submitting}>
                 {submitting ? "Sending…" : "Send Message"}
               </Button>
             </div>
+
+            <div className="mt-8 border-t border-rule pt-8">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3214.2749466497953!2d-119.30014460000001!3d36.3298857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80952faa5888361d%3A0x404fb85892fcdb84!2sHouse%20Junkies%20Inc.!5e0!3m2!1sen!2sus!4v1788719427287!5m2!1sen!2sus"
+                width="100%"
+                height="300"
+                style={{ border: "0px" }}
+                allowFullScreen
+              />
+            </div>
           </form>
-          
-          <div className="mt-8 border-t border-rule pt-8">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3214.2749466497953!2d-119.30014460000001!3d36.3298857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80952faa5888361d%3A0x404fb85892fcdb84!2sHouse%20Junkies%20Inc.!5e0!3m2!1sen!2sus!4v1788719427287!5m2!1sen!2sus"
-              width="100%"
-              height="300"
-              style={{ border: "0px" }}
-              allowFullScreen
-            />
-          </div>
         </div>
       </Container>
     </section>

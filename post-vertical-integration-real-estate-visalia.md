@@ -5,7 +5,7 @@ description: "Ulloa Investment Group owns the acquisitions arm, the construction
 date: "2026-09-06"
 ---
 
-*By Dominic McClelland, Operations Manager, House Junkies Inc. | September 6, 2026*
+*By Dominic McClelland | Updated 09/06/2026*
 
 "Vertically integrated" is the kind of phrase that sounds like it was invented in a boardroom. So let me put it in plain terms.
 
@@ -17,29 +17,11 @@ That is not a marketing line. It is an operating structure, and it changes what 
 
 ## The three companies under Ulloa Investment Group
 
-### House Junkies Inc - we buy
+**House Junkies Inc - we buy.** The acquisitions and investment arm. This is the side I run day to day. We make cash offers on properties in any condition, close quickly, and buy as-is. 350+ completed projects. According to SFR Analytics, an independent third-party data source, we are the #1 investment company in Visalia by volume. No repairs, no commissions, no cleaning, no stress. Our office is at 1814 W Dorothea Ave in Visalia, and you can walk in.
 
-The acquisitions and investment arm. This is the side I run day to day.
+**House Junkies Construction - we build.** A licensed California general contractor, CA LIC #1077593, bonded under #65522015, licensed and insured. Located at 1640 W Mineral King Ave. Complete home renovations, kitchen and bathroom remodels, demolition, ground-up new construction, and full ADU builds from design through permitting to turnkey delivery. Most investors call three subcontractors and wait a week for bids before they can price your house. We do not. The people who will do the work already told us what it costs, because they work here.
 
-We make cash offers on properties in any condition, close quickly, and buy as-is. 350+ completed projects. According to SFR Analytics, an independent third-party data source, we are the #1 investment company in Visalia by volume.
-
-No repairs, no commissions, no cleaning, no stress. Our office is at 1814 W Dorothea Ave in Visalia, and you can walk in.
-
-### House Junkies Construction - we build
-
-A licensed California general contractor, CA LIC #1077593, bonded under #65522015, licensed and insured. Located at 1640 W Mineral King Ave.
-
-Complete home renovations, kitchen and bathroom remodels, demolition, ground-up new construction, and full ADU builds from design through permitting to turnkey delivery.
-
-Most investors call three subcontractors and wait a week for bids before they can price your house. We do not. The people who will do the work already told us what it costs, because they work here.
-
-### Legacy Real Estate - we sell
-
-The brokerage. DRE #02165291, offices at 801 W Main Street in Visalia. Jenny Madrid is our Broker of Record.
-
-Professional listing services, maximum market exposure, buyer representation, investment property specialists, and a mentee program for agents building a career.
-
-This one matters more than sellers expect, and I will explain why below.
+**Legacy Real Estate - we sell.** The brokerage. DRE #02165291, offices at 801 W Main Street in Visalia. Jenny Madrid is our Broker of Record. Professional listing services, maximum market exposure, buyer representation, investment property specialists, and a mentee program for agents building a career. This one matters more than sellers expect.
 
 ## Acquire, renovate, sell, repeat
 
