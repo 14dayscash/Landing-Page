@@ -7,9 +7,9 @@ export function HomePage() {
   return (
     <>
       <Hero />
+      <About />
       <Contact />
       <BlogHighlights />
-      <About />
     </>
   );
 }
