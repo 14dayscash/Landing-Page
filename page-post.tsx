@@ -2,7 +2,8 @@ import { Link, useParams } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
 import { Button } from "./button";
 import { Container } from "./container";
-import { formatDate, getPost } from "./posts";
+import headshot from "./dominic-headshot.jpg";
+import { formatDate, getPost, posts } from "./posts";
 
 export function PostPage() {
   const { slug } = useParams();
@@ -46,6 +47,52 @@ export function PostPage() {
           className="post-body mt-10"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
+
+        <div className="mt-14 flex items-center gap-4 rounded-lg border border-border bg-card p-6">
+          <img
+            src={headshot}
+            alt="Dominic McClelland"
+            width={880}
+            height={880}
+            loading="lazy"
+            decoding="async"
+            className="block size-14 shrink-0 rounded-full border border-border object-cover"
+          />
+          <div>
+            <p className="text-sm font-semibold text-foreground">
+              Dominic McClelland
+            </p>
+            <p className="mt-0.5 text-sm text-muted-foreground">
+              Operations Manager, House Junkies Inc. Partner, Ulloa
+              Investment Group.
+            </p>
+          </div>
+        </div>
+
+        {posts.length > 1 && (
+          <div className="mt-10">
+            <p className="label-mono text-accent">More from the blog</p>
+            <ul className="mt-4 grid gap-4 sm:grid-cols-2">
+              {posts
+                .filter((p) => p.slug !== post.slug)
+                .map((p) => (
+                  <li key={p.slug}>
+                    <Link
+                      to={`/blog/${p.slug}`}
+                      className="flex h-full flex-col rounded-lg border border-border bg-card p-5 transition-colors duration-quick ease-smooth hover:border-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                    >
+                      <p className="text-xs text-muted-foreground tabular-nums">
+                        {formatDate(p.date)}
+                      </p>
+                      <p className="mt-2 text-base font-semibold leading-snug tracking-tight text-foreground">
+                        {p.title}
+                      </p>
+                    </Link>
+                  </li>
+                ))}
+            </ul>
+          </div>
+        )}
 
         <div className="mt-14 rounded-lg border border-border bg-card p-6 sm:p-8">
           <p className="label-mono text-accent">Selling a house in Visalia?</p>

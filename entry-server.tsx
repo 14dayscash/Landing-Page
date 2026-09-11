@@ -18,6 +18,10 @@ export function postFor(url: string) {
   return posts.find((p) => p.slug === slug) ?? null;
 }
 
+export function allPosts() {
+  return posts.map((p) => ({ slug: p.slug, title: p.title }));
+}
+
 export function render(url: string) {
   return renderToString(
     <StrictMode>
