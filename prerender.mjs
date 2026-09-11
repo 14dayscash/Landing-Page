@@ -37,8 +37,82 @@ function personSchema() {
     sameAs: [
       "https://linkedin.com/in/dominicmcclelland",
       "https://instagram.com/dmcclelland_",
+      "https://www.facebook.com/mcclelland.dominic/",
       "https://youtube.com/@HouseJunkiesYT",
     ],
+  };
+}
+
+function localBusinessSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    name: "House Junkies Inc.",
+    image: `${ORIGIN}/logo-house-junkies.png`,
+    url: ORIGIN,
+    telephone: "+1-559-368-8956",
+    email: "dominicmcclelland@gmail.com",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "801 W Main Street",
+      addressLocality: "Visalia",
+      addressRegion: "CA",
+      postalCode: "93291",
+      addressCountry: "US",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 36.3298857,
+      longitude: -119.3001446,
+    },
+    areaServed: [
+      "Visalia, CA",
+      "Tulare, CA",
+      "Porterville, CA",
+      "Dinuba, CA",
+      "Lindsay, CA",
+      "Exeter, CA",
+      "Farmersville, CA",
+      "Goshen, CA",
+      "Orosi, CA",
+    ].map((name) => ({ "@type": "City", name })),
+    employee: {
+      "@type": "Person",
+      name: "Dominic McClelland",
+      jobTitle: "Operations Manager",
+    },
+    sameAs: ["https://youtube.com/@HouseJunkiesYT"],
+  };
+}
+
+function breadcrumbSchema(items) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  };
+}
+
+function blogCollectionSchema(allPosts) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Notes from the field",
+    url: `${ORIGIN}/blog`,
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: allPosts.map((p, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        url: `${ORIGIN}/blog/${p.slug}`,
+        name: p.title,
+      })),
+    },
   };
 }
 
@@ -87,12 +161,28 @@ function articleSchema(post, url) {
 
 const routes = server.routes();
 const urls = [];
+const buildDate = new Date().toISOString().slice(0, 10);
 
 for (const route of routes) {
   const meta = server.meta(route);
   const post = server.postFor(route);
   const body = server.render(route);
   const canonical = `${ORIGIN}${route === "/" ? "/" : route}`;
+
+  let breadcrumbItems = [{ name: "Home", url: `${ORIGIN}/` }];
+  if (route === "/work") {
+    breadcrumbItems.push({ name: "Work Experience", url: canonical });
+  } else if (route === "/blog") {
+    breadcrumbItems.push({ name: "Blog", url: canonical });
+  } else if (post) {
+    breadcrumbItems.push({ name: "Blog", url: `${ORIGIN}/blog` });
+    breadcrumbItems.push({ name: post.title, url: canonical });
+  }
+
+  const extraSchema = [];
+  if (route === "/") extraSchema.push(localBusinessSchema());
+  if (route === "/blog") extraSchema.push(blogCollectionSchema(server.allPosts()));
+  if (route !== "/") extraSchema.push(breadcrumbSchema(breadcrumbItems));
 
   const head = [
     `<link rel="canonical" href="${canonical}" />`,
@@ -120,6 +210,11 @@ for (const route of routes) {
           ]
         : [],
     )
+    .concat(
+      extraSchema.map(
+        (schema) => `<script type="application/ld+json">${JSON.stringify(schema)}</script>`,
+      ),
+    )
     .join("\n    ");
 
   const html = template
@@ -139,13 +234,13 @@ for (const route of routes) {
     route === "/" ? DIST : path.join(DIST, route.replace(/^\//, ""));
   fs.mkdirSync(outDir, { recursive: true });
   fs.writeFileSync(path.join(outDir, "index.html"), html);
-  urls.push(canonical);
+  urls.push({ loc: canonical, lastmod: post ? post.date : buildDate });
   console.log(`prerendered ${route}`);
 }
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls.map((u) => `  <url><loc>${u}</loc></url>`).join("\n")}
+${urls.map((u) => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod></url>`).join("\n")}
 </urlset>
 `;
 fs.writeFileSync(path.join(DIST, "sitemap.xml"), sitemap);
