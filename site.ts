@@ -19,7 +19,7 @@ export const site = {
   instagram: "https://instagram.com/dmcclelland_",
   facebook: "https://www.facebook.com/mcclelland.dominic/",
   youtube: "https://youtube.com/@HouseJunkiesYT",
-  quote: "We're taking over, one street at a time!",
+  quote: "We are taking over, one street at a time!",
   roles: [
     "Operations Manager, House Junkies Inc.",
     "Partner, Ulloa Investment Group L.L.C.",
