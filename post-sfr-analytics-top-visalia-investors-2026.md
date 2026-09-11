@@ -29,7 +29,7 @@ SFR Analytics pulled verified deed and transaction records across Visalia and ra
 | 12 | Legacy Faith Homes LLC | Multi-Entity | 12 | $1.99M |
 | 13 | M Sanchez Property Investments LLC | Flipper | 12 | $1.74M |
 | 14 | Drake Equity Inc | Flipper | 17 | $1.47M |
-| 15 | Zag Properties Inc | Zaid German | 13 | $1.28M |
+| 15 | Zag Properties Inc | Flipper | 13 | $1.28M |
 
 That is $16.0M in verified volume against 110 closed transactions. The next closest operator on the list did $8.33M across 47 transactions. We are not narrowly ahead of the field. We nearly doubled the runner-up in dollar volume and more than doubled them in transaction count.
 
