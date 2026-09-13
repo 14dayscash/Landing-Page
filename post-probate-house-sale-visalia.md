@@ -7,9 +7,9 @@ date: "2026-09-13"
 
 *By Dominic McClelland | Updated 09/13/2026*
 
-If you are reading this, there is a good chance you just lost someone and now you are the one holding a house you did not ask for. Maybe it is sitting empty. Maybe a sibling is asking what happens next and you do not have an answer. Maybe you have never heard the word "probate" in your life until three weeks ago.
+If you are reading this, there is a good chance you just lost someone and now you are the one holding a house you did not ask for. Maybe it is sitting empty. Maybe a sibling is asking what happens next and you do not have an answer. Maybe you have never heard the word "probate" in your life until three weeks ago. That is exactly who House Junkies talks to every week across Visalia and Tulare County.
 
-I work probate sales in Visalia and across Tulare County constantly. This post is the version of that conversation I have on the phone, written down.
+I handle probate sales personally, and if you need to sell an inherited house in Visalia, this post is the version of that phone conversation, written down: how California probate actually works, and how House Junkies can get you paid faster than waiting out a full 12 to 18 month probate.
 
 ## How California Probate Actually Works
 
@@ -46,9 +46,9 @@ Two tools we use regularly to get families paid faster than waiting for a full p
 
 Which path applies depends entirely on where your specific estate is in the process. That is exactly what the consult call is for.
 
-## We Cover the Costs
+## House Junkies Covers the Costs
 
-Selling to us does not add a bill on top of an already expensive process. We cover our own closing costs, and where it makes sense for the deal, we can also cover recording fees and other transaction costs tied to getting the sale done. You are not paying commissions, and you are not paying us to buy your house.
+Selling an inherited house to House Junkies does not add a bill on top of an already expensive process. We cover our own closing costs, and where it makes sense for the deal, we can also cover recording fees and other transaction costs tied to getting the sale done. You are not paying commissions, and you are not paying us to buy your house.
 
 ## Our Probate Team
 
