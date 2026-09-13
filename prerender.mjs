@@ -147,6 +147,30 @@ function faqSchema(post) {
   };
 }
 
+// Pulls "**Step Name.** description" pairs out of a "How the process works"
+// style section so the post is eligible for HowTo rich results.
+function howToSchema(post) {
+  const match = post.html.match(/<h2[^>]*>\s*(How[^<]*Process[^<]*Works[^<]*)<\/h2>/i);
+  if (!match) return null;
+  const section = post.html.split(match[0])[1];
+  if (!section) return null;
+  const body = section.split(/<h2/)[0];
+  const steps = [...body.matchAll(/<p><strong>([^.<]+)\.<\/strong>\s*([\s\S]*?)<\/p>/g)]
+    .map((m) => ({ name: stripTags(m[1]), text: stripTags(m[2]) }))
+    .filter((s) => s.text.length > 10);
+  if (steps.length < 3) return null;
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: stripTags(match[1]),
+    step: steps.map((s) => ({
+      "@type": "HowToStep",
+      name: s.name,
+      text: s.text,
+    })),
+  };
+}
+
 function articleSchema(post, url) {
   return {
     "@context": "https://schema.org",
@@ -183,6 +207,10 @@ for (const route of routes) {
   if (route === "/") extraSchema.push(localBusinessSchema());
   if (route === "/blog") extraSchema.push(blogCollectionSchema(server.allPosts()));
   if (route !== "/") extraSchema.push(breadcrumbSchema(breadcrumbItems));
+  if (post) {
+    const howTo = howToSchema(post);
+    if (howTo) extraSchema.push(howTo);
+  }
 
   const head = [
     `<link rel="canonical" href="${canonical}" />`,
