@@ -1,7 +1,14 @@
 import { site } from "./site";
 import { getPost } from "./posts";
 
-export type PageMeta = { title: string; description: string; path: string };
+export type PageMeta = {
+  title: string;
+  description: string;
+  path: string;
+  noindex?: boolean;
+};
+
+const KNOWN_PATHS = new Set(["/", "/work", "/blog"]);
 
 export function metaFor(pathname: string): PageMeta {
   const path = pathname.replace(/\/+$/, "") || "/";
@@ -33,6 +40,21 @@ export function metaFor(pathname: string): PageMeta {
         description: post.description,
       };
     }
+    return {
+      path,
+      title: `Post Not Found - ${site.name}`,
+      description: "That post may have moved or not been published yet.",
+      noindex: true,
+    };
+  }
+
+  if (!KNOWN_PATHS.has(path)) {
+    return {
+      path,
+      title: `Page Not Found - ${site.name}`,
+      description: "That page may have moved or no longer exists.",
+      noindex: true,
+    };
   }
 
   return {
