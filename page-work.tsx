@@ -1,6 +1,7 @@
 import { Contact } from "./contact";
 import { Container } from "./container";
 import { Projects } from "./projects";
+import { RehabShowcase } from "./rehab-showcase";
 import { Skills } from "./skills";
 
 export function WorkPage() {
@@ -18,6 +19,7 @@ export function WorkPage() {
           </p>
         </Container>
       </section>
+      <RehabShowcase />
       <Projects />
       <Skills />
       <Contact />
