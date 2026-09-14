@@ -171,6 +171,44 @@ function howToSchema(post) {
   };
 }
 
+function partnerFaqSchema() {
+  const pairs = [
+    [
+      "What is the difference between a JV Partner and an Equity Partner?",
+      "A JV Partner finds the deal themselves and contributes capital toward the acquisition, with House Junkies covering construction. An Equity Partner is a straight 50/50 split on a deal House Junkies is already running end to end, acquisitions, construction, and sale.",
+    ],
+    [
+      "Do I need a real estate license to partner with House Junkies?",
+      "No, not for Deal Finder, JV, Equity, or Funding Partner. A license is only required for the Agent Partner track, and it opens up the ability to list properties on the back end of a JV deal too.",
+    ],
+    [
+      "How fast do Deal Finder payouts happen?",
+      "Once the referred deal closes, typically within a few days of closing.",
+    ],
+    [
+      "Is this open to investors outside of Visalia or Tulare County?",
+      "Yes. Deal Finder works best with local knowledge, but Equity and Funding Partner arrangements are open to outside capital regardless of where the investor lives.",
+    ],
+    [
+      "What happens if a JV or Equity deal does not perform as expected?",
+      "Real estate carries real risk, including the risk of loss. Every JV and Equity arrangement is documented in a written agreement that spells out how costs, delays, and outcomes are handled before either side commits capital.",
+    ],
+    [
+      "Is there a minimum to become a Funding Partner?",
+      "Funding Partner arrangements generally start around $100,000 deployed per year, with interest-only terms negotiated individually per agreement.",
+    ],
+  ];
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: pairs.map(([q, a]) => ({
+      "@type": "Question",
+      name: q,
+      acceptedAnswer: { "@type": "Answer", text: a },
+    })),
+  };
+}
+
 function articleSchema(post, url) {
   return {
     "@context": "https://schema.org",
@@ -202,6 +240,8 @@ for (const route of routes) {
     breadcrumbItems.push({ name: "Privacy Policy", url: canonical });
   } else if (route === "/terms") {
     breadcrumbItems.push({ name: "Terms of Service", url: canonical });
+  } else if (route === "/partner") {
+    breadcrumbItems.push({ name: "Partner", url: canonical });
   } else if (post) {
     breadcrumbItems.push({ name: "Blog", url: `${ORIGIN}/blog` });
     breadcrumbItems.push({ name: post.title, url: canonical });
@@ -215,6 +255,7 @@ for (const route of routes) {
     const howTo = howToSchema(post);
     if (howTo) extraSchema.push(howTo);
   }
+  if (route === "/partner") extraSchema.push(partnerFaqSchema());
 
   const head = [
     `<link rel="canonical" href="${canonical}" />`,
@@ -222,11 +263,11 @@ for (const route of routes) {
     `<meta property="og:title" content="${escapeAttr(meta.title)}" />`,
     `<meta property="og:description" content="${escapeAttr(meta.description)}" />`,
     `<meta property="og:url" content="${canonical}" />`,
-    `<meta property="og:image" content="${ORIGIN}/logo-house-junkies.png" />`,
+    `<meta property="og:image" content="${ORIGIN}/images/og-house-junkies-team.jpg" />`,
     `<meta property="og:image:width" content="1200" />`,
     `<meta property="og:image:height" content="630" />`,
     `<meta name="twitter:card" content="summary_large_image" />`,
-    `<meta name="twitter:image" content="${ORIGIN}/logo-house-junkies.png" />`,
+    `<meta name="twitter:image" content="${ORIGIN}/images/og-house-junkies-team.jpg" />`,
     `<meta name="twitter:site" content="@dmcclelland_" />`,
     `<meta name="twitter:creator" content="@dmcclelland_" />`,
     `<script type="application/ld+json">${JSON.stringify(
