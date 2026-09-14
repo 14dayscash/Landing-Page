@@ -67,7 +67,7 @@ export function About() {
             className="w-full rounded-lg border border-border object-cover"
           />
           <figcaption className="mt-2 text-sm text-muted-foreground">
-            The House Junkies team
+            The House Junkies Team
           </figcaption>
         </figure>
       </Container>
