@@ -20,7 +20,7 @@ That is not a marketing line. It is an operating structure, and it changes what 
 **House Junkies Inc - We Buy.** The acquisitions and investment arm. This is the side I run day to day. We make cash offers on properties in any condition, close quickly, and buy as-is. 350+ completed projects. According to SFR Analytics, an independent third-party data source, we are the #1 investment company in Visalia by volume. No repairs, no commissions, no cleaning, no stress. Our main office is at 801 West Main Street in Visalia.
 
 <figure>
-  <img src="/images/office-house-junkies-dorothea.jpg" alt="House Junkies Inc. office at 801 West Main Street, Visalia" width="1400" height="1050" loading="lazy" />
+  <img src="/images/office-legacy-main-st.jpg" alt="House Junkies Inc. office at 801 West Main Street, Visalia" width="1400" height="1050" loading="lazy" />
   <figcaption>House Junkies Inc, 801 West Main Street, Visalia</figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ That is not a marketing line. It is an operating structure, and it changes what 
 **Legacy Real Estate - We Sell.** The brokerage arm. DRE #02165291, main office at 1814 West Dorothea Ave, Visalia. Lead by Ms. Jenny Madrid our Broker of Record. Professional listing services, maximum market exposure, buyer representation, investment property specialists, and a mentee program for agents building a career. Averaging 80+ sales and over $30,000,000 in closed volume per month. This one matters more than sellers expect.
 
 <figure>
-  <img src="/images/office-legacy-main-st.jpg" alt="Legacy Real Estate office at 1814 West Dorothea Ave, Visalia" width="1600" height="1200" loading="lazy" />
+  <img src="/images/office-house-junkies-dorothea.jpg" alt="Legacy Real Estate office at 1814 West Dorothea Ave, Visalia" width="1600" height="1200" loading="lazy" />
   <figcaption>Legacy Real Estate, 1814 West Dorothea Ave, Visalia</figcaption>
 </figure>
 
