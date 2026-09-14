@@ -3,6 +3,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import { BlogPage } from "./page-blog";
 import { HomePage } from "./page-home";
 import { NotFoundPage } from "./page-not-found";
+import { PartnerPage } from "./page-partner";
 import { PostPage } from "./page-post";
 import { PrivacyPage } from "./page-privacy";
 import { TermsPage } from "./page-terms";
@@ -49,6 +50,7 @@ export function App() {
           <Route path="/blog/:slug" element={<PostPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
+          <Route path="/partner" element={<PartnerPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
