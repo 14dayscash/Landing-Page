@@ -6,7 +6,14 @@ import { posts } from "./posts";
 import { metaFor } from "./seo";
 
 export function routes() {
-  return ["/", "/work", "/blog", ...posts.map((p) => `/blog/${p.slug}`)];
+  return [
+    "/",
+    "/work",
+    "/blog",
+    "/privacy",
+    "/terms",
+    ...posts.map((p) => `/blog/${p.slug}`),
+  ];
 }
 
 export function meta(url: string) {
