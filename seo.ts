@@ -8,7 +8,7 @@ export type PageMeta = {
   noindex?: boolean;
 };
 
-const KNOWN_PATHS = new Set(["/", "/work", "/blog", "/privacy", "/terms"]);
+const KNOWN_PATHS = new Set(["/", "/work", "/blog", "/privacy", "/terms", "/partner"]);
 
 export function metaFor(pathname: string): PageMeta {
   const path = pathname.replace(/\/+$/, "") || "/";
@@ -46,6 +46,15 @@ export function metaFor(pathname: string): PageMeta {
       title: `Terms of Service - ${site.name}`,
       description:
         "The terms that govern use of dominicmcclelland.com, operated by Dominic McClelland on behalf of House Junkies.",
+    };
+  }
+
+  if (path === "/partner") {
+    return {
+      path,
+      title: `Partner With Us - ${site.name}`,
+      description:
+        "Five ways to partner with House Junkies and Ulloa Investment Group in Visalia, from a $2,000 deal referral to funding flips as a private lender.",
     };
   }
 
