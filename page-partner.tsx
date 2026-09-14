@@ -24,7 +24,7 @@ const tiers: Tier[] = [
   {
     name: "Agent Partner",
     range: "$5,000 to $15,000+",
-    tagline: "Represent House Junkies directly for on/off market deals.",
+    tagline: "Represent House Junkies directly for on/off market transactions.",
     body: "If you hold a California real estate license, you can represent us as our agent on acquisitions instead of just sending a referral our way. That means working the transaction itself and earning agent-level compensation instead of a flat referral fee.",
     bestFor:
       "Licensed agents who want repeat, reliable transaction volume from an active buyer instead of chasing one-off listings.",
@@ -32,7 +32,7 @@ const tiers: Tier[] = [
   {
     name: "JV Partner  ",
     range: "$20,000 to $50,000+",
-    tagline: "Find a deal and investment for a share of the profit.",
+    tagline: "Find a deal and put skin in the game for a share of the profit.",
     body: "A step past Deal Finder. You bring the property and contribute capital toward the acquisition itself. If you are a licensed agent, you can also list the finished property on the back end for your commission. We cover 100% of construction costs and partner with you directly on the purchase.",
     bestFor:
       "Agents or connected investors ready to move from a flat fee to an actual stake in a deal's upside.",
@@ -48,7 +48,7 @@ const tiers: Tier[] = [
   {
     name: "Funding Partner",
     range: "$100,000+ per year",
-    tagline: "Lend private capital, earn a passive return.",
+    tagline: "Lend private capital, earn a passive double digit return.",
     body: "You are not finding deals or touching construction. You are providing capital against our flips as a lender, earning an interest-only, passive return while your money is deployed. Terms are negotiated individually per agreement.",
     bestFor:
       "Investors with more than $100,000 sitting in low return accounts, who want real estate-backed returns without operational involvement.",
