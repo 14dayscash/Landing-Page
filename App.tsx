@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { BlogPage } from "./page-blog";
 import { HomePage } from "./page-home";
+import { NotFoundPage } from "./page-not-found";
 import { PostPage } from "./page-post";
 import { SiteFooter } from "./site-footer";
 import { SiteHeader } from "./site-header";
@@ -44,7 +45,7 @@ export function App() {
           <Route path="/work" element={<WorkPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/:slug" element={<PostPage />} />
-          <Route path="*" element={<HomePage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
       <SiteFooter />
