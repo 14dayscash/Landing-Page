@@ -122,6 +122,20 @@ export function SiteFooter() {
           <p>
             © {new Date().getFullYear()} {site.name}
           </p>
+          <p className="mt-2 flex flex-wrap gap-x-4 gap-y-1">
+            <Link
+              to="/privacy"
+              className="transition-colors duration-quick ease-smooth hover:text-accent"
+            >
+              Privacy Policy
+            </Link>
+            <Link
+              to="/terms"
+              className="transition-colors duration-quick ease-smooth hover:text-accent"
+            >
+              Terms of Service
+            </Link>
+          </p>
         </div>
       </Container>
     </footer>
