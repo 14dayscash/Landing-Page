@@ -31,4 +31,5 @@ export const nav = [
   { href: "/#contact", label: "Contact" },
   { href: "/work", label: "Work" },
   { href: "/blog", label: "Blog" },
+  { href: "/partner", label: "Partner" },
 ] as const;
