@@ -198,6 +198,10 @@ for (const route of routes) {
     breadcrumbItems.push({ name: "Work Experience", url: canonical });
   } else if (route === "/blog") {
     breadcrumbItems.push({ name: "Blog", url: canonical });
+  } else if (route === "/privacy") {
+    breadcrumbItems.push({ name: "Privacy Policy", url: canonical });
+  } else if (route === "/terms") {
+    breadcrumbItems.push({ name: "Terms of Service", url: canonical });
   } else if (post) {
     breadcrumbItems.push({ name: "Blog", url: `${ORIGIN}/blog` });
     breadcrumbItems.push({ name: post.title, url: canonical });
