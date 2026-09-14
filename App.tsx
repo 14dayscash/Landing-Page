@@ -4,6 +4,8 @@ import { BlogPage } from "./page-blog";
 import { HomePage } from "./page-home";
 import { NotFoundPage } from "./page-not-found";
 import { PostPage } from "./page-post";
+import { PrivacyPage } from "./page-privacy";
+import { TermsPage } from "./page-terms";
 import { SiteFooter } from "./site-footer";
 import { SiteHeader } from "./site-header";
 import { WorkPage } from "./page-work";
@@ -45,6 +47,8 @@ export function App() {
           <Route path="/work" element={<WorkPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/:slug" element={<PostPage />} />
+          <Route path="/privacy" element={<PrivacyPage />} />
+          <Route path="/terms" element={<TermsPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
