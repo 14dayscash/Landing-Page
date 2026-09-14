@@ -12,6 +12,7 @@ export function routes() {
     "/blog",
     "/privacy",
     "/terms",
+    "/partner",
     ...posts.map((p) => `/blog/${p.slug}`),
   ];
 }
