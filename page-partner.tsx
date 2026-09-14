@@ -48,7 +48,7 @@ const tiers: Tier[] = [
   {
     name: "Funding Partner",
     range: "$100,000+ per year",
-    tagline: "Lend private capital, earn a passive double digit return.",
+    tagline: "Lend capital, earn a passive double digit return secured by real estate.",
     body: "You are not finding deals or touching construction. You are providing capital against our flips as a lender, earning an interest-only, passive return while your money is deployed. Terms are negotiated individually per agreement.",
     bestFor:
       "Investors with more than $100,000 sitting in low return accounts, who want real estate-backed returns without operational involvement.",
