@@ -12,27 +12,27 @@ type Tier = {
 
 const tiers: Tier[] = [
   {
-    name: "Deal Finder",
+    name: "Deal Finder  ",
     range: "$2,000 to $10,000",
     tagline: "Know a house that needs to sell? Bring us the address.",
     body: "You do not need a real estate license, capital, or a contract of your own. If you know about a property, a distressed house, a landlord ready to be done, a family member's inherited place, you send us the address and the seller's contact information. If we are able to act on it and the deal closes, you get paid, typically between $2,000 and $10,000 depending on the size and margin of the deal.",
     bestFor:
       "Anyone plugged into a community, real estate adjacent or not, who hears about properties before they hit the market.",
     example:
-      "You mention a rental property whose landlord told you he's done with tenants. We close it in three weeks. You get a check.",
+      "You mention a rental property whose landlord told you he's done with tenants. We close it in three weeks. You get a check the next day.",
   },
   {
     name: "Agent Partner",
     range: "$5,000 to $15,000+",
-    tagline: "Represent House Junkies directly on transactions.",
+    tagline: "Represent House Junkies directly for on/off market deals.",
     body: "If you hold a California real estate license, you can represent us as our agent on acquisitions instead of just sending a referral our way. That means working the transaction itself and earning agent-level compensation instead of a flat referral fee.",
     bestFor:
       "Licensed agents who want repeat, reliable transaction volume from an active buyer instead of chasing one-off listings.",
   },
   {
-    name: "JV Partner",
+    name: "JV Partner  ",
     range: "$20,000 to $50,000+",
-    tagline: "Find the deal and put some skin in the game.",
+    tagline: "Find a deal and investment for a share of the profit.",
     body: "A step past Deal Finder. You bring the property and contribute capital toward the acquisition itself. If you are a licensed agent, you can also list the finished property on the back end for your commission. We cover 100% of construction costs and partner with you directly on the purchase.",
     bestFor:
       "Agents or connected investors ready to move from a flat fee to an actual stake in a deal's upside.",
@@ -40,7 +40,7 @@ const tiers: Tier[] = [
   {
     name: "Equity Partner",
     range: "$35,000 to $100,000+",
-    tagline: "50/50 on a deal, acquisition to sale.",
+    tagline: "50/50 on a deal- acquisition to sale.",
     body: "You bring capital as an equal partner on a specific property. We run the entire operation, acquisitions, construction, and the sale through Legacy Real Estate, and split the profit 50/50 once the property sells.",
     bestFor:
       "Investors who want a direct stake in a specific flip without running the operation themselves.",
@@ -51,7 +51,7 @@ const tiers: Tier[] = [
     tagline: "Lend private capital, earn a passive return.",
     body: "You are not finding deals or touching construction. You are providing capital against our flips as a lender, earning an interest-only, passive return while your money is deployed. Terms are negotiated individually per agreement.",
     bestFor:
-      "Investors who want real estate-backed returns without operational involvement.",
+      "Investors with more than $100,000 sitting in low return accounts, who want real estate-backed returns without operational involvement.",
   },
 ];
 
@@ -83,33 +83,33 @@ export function PartnerPage() {
               <tbody>
                 <tr>
                   <td>Deal Finder</td>
-                  <td>$2,000–$10,000</td>
-                  <td>An address</td>
-                  <td>None after the intro</td>
+                  <td>$2,000 – $10,000</td>
+                  <td>Property Address + Any Information</td>
+                  <td>Nothing after the intro!</td>
                 </tr>
                 <tr>
                   <td>Agent Partner</td>
-                  <td>$5,000–$15,000+</td>
-                  <td>A CA real estate license</td>
-                  <td>Represent us on the transaction</td>
+                  <td>$5,000 – $15,000+</td>
+                  <td>Property Address + Real Estate License</td>
+                  <td>Represent House Junkies on the transaction!</td>
                 </tr>
                 <tr>
                   <td>JV Partner</td>
-                  <td>$20,000–$50,000+</td>
-                  <td>A deal, plus capital</td>
-                  <td>Partner on acquisition, list if licensed</td>
+                  <td>$20,000 – $50,000+</td>
+                  <td>Property Under Contract + Available Capital</td>
+                  <td>Partner on acquisition, list on the backend if licensed!</td>
                 </tr>
                 <tr>
                   <td>Equity Partner</td>
-                  <td>$35,000–$100,000+</td>
-                  <td>Capital, 50/50 stake</td>
-                  <td>Passive on execution, shares in profit</td>
+                  <td>$35,000 – $100,000+</td>
+                  <td>Available Capital + 50/50 Investment</td>
+                  <td>Partner on purchase and renovation, share in the profit!</td>
                 </tr>
                 <tr>
                   <td>Funding Partner</td>
                   <td>$100,000+/yr</td>
-                  <td>Capital as a lender</td>
-                  <td>Fully passive, interest-only return</td>
+                  <td>Allocated Lending Capital</td>
+                  <td>Fully passive, double digit interest-only returns backed by real estate!</td>
                 </tr>
               </tbody>
             </table>
@@ -198,7 +198,7 @@ export function PartnerPage() {
               </strong>
               Yes. Deal Finder works best with local knowledge, but Equity
               and Funding Partner arrangements are open to outside capital
-              regardless of where you live.
+              regardless of if you live locally or not.
             </p>
             <p>
               <strong>
