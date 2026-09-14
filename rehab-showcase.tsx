@@ -4,7 +4,7 @@ export function RehabShowcase() {
   return (
     <section className="border-b border-rule py-12 sm:py-16">
       <Container>
-        <p className="label-mono text-accent">Proof of Work</p>
+        <p className="label-mono text-accent">PROJECT EXAMPLE</p>
         <h2 className="mt-4 font-display text-title leading-title tracking-display text-foreground">
           One of Our Visalia Rehabs, Start to Finish
         </h2>
@@ -19,7 +19,7 @@ export function RehabShowcase() {
               loading="lazy"
             />
             <figcaption className="mt-2 text-sm text-muted-foreground">
-              Before
+              BEFORE
             </figcaption>
           </figure>
           <figure>
@@ -32,7 +32,7 @@ export function RehabShowcase() {
               loading="lazy"
             />
             <figcaption className="mt-2 text-sm text-muted-foreground">
-              After
+              AFTER
             </figcaption>
           </figure>
         </div>
