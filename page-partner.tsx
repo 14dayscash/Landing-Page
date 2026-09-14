@@ -188,8 +188,7 @@ export function PartnerPage() {
             </p>
             <p>
               <strong>How fast do Deal Finder payouts happen?</strong>
-              Once the deal you referred closes, typically within a few
-              days of closing.
+              Once the deal you send closes, typically the day after closing. Via cash, check, or wire transfer.
             </p>
             <p>
               <strong>
