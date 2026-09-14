@@ -56,6 +56,20 @@ export function About() {
             </div>
           </div>
         </div>
+
+        <figure className="mt-12">
+          <img
+            src="/images/house-junkies-team.jpg"
+            alt="The House Junkies Inc. team in Visalia, California"
+            width={1535}
+            height={1024}
+            loading="lazy"
+            className="w-full rounded-lg border border-border object-cover"
+          />
+          <figcaption className="mt-2 text-sm text-muted-foreground">
+            The House Junkies team
+          </figcaption>
+        </figure>
       </Container>
     </section>
   );
