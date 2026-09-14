@@ -16,5 +16,17 @@ export function usePageMeta() {
     if (canonical) {
       canonical.setAttribute("href", `https://dominicmcclelland.com${meta.path}`);
     }
+
+    let robots = document.querySelector('meta[name="robots"]');
+    if (meta.noindex) {
+      if (!robots) {
+        robots = document.createElement("meta");
+        robots.setAttribute("name", "robots");
+        document.head.appendChild(robots);
+      }
+      robots.setAttribute("content", "noindex");
+    } else if (robots) {
+      robots.remove();
+    }
   }, [pathname]);
 }
