@@ -8,7 +8,7 @@ export type PageMeta = {
   noindex?: boolean;
 };
 
-const KNOWN_PATHS = new Set(["/", "/work", "/blog"]);
+const KNOWN_PATHS = new Set(["/", "/work", "/blog", "/privacy", "/terms"]);
 
 export function metaFor(pathname: string): PageMeta {
   const path = pathname.replace(/\/+$/, "") || "/";
@@ -28,6 +28,24 @@ export function metaFor(pathname: string): PageMeta {
       title: `Notes on Real Estate in Visalia - ${site.name}`,
       description:
         "Notes on flipping, acquisitions, off-market deals, and operating a vertically integrated real estate business in Visalia, California.",
+    };
+  }
+
+  if (path === "/privacy") {
+    return {
+      path,
+      title: `Privacy Policy - ${site.name}`,
+      description:
+        "How Dominic McClelland and House Junkies collect, use, and protect information submitted through dominicmcclelland.com.",
+    };
+  }
+
+  if (path === "/terms") {
+    return {
+      path,
+      title: `Terms of Service - ${site.name}`,
+      description:
+        "The terms that govern use of dominicmcclelland.com, operated by Dominic McClelland on behalf of House Junkies.",
     };
   }
 
