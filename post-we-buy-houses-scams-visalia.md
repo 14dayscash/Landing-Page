@@ -63,7 +63,7 @@ Monday - Friday 8:00AM to 5:00PM
 
 ## Questions to Ask Before You Sign Anything
 
-1. Can I see a contract with terms right now?
+1. Can I see your contract right now?
 2. Can you do a non-refundable deposit?
 3. Are you the one buying this house?
 4. What happens if you cannot close, what does that cost me, what happens next?
