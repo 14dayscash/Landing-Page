@@ -1,5 +1,5 @@
 ---
-title: "How to Spot a Fake \"We Buy Houses\" Company in Visalia"
+title: "How to Spot a Fake 'We Buy Houses' Company in Visalia"
 metaTitle: "We Buy Houses Scams in Visalia: Red Flags to Know | House Junkies"
 description: "Most of the texts and postcards flooding Visalia mailboxes are wholesalers, not real buyers. Here's how to tell the difference, and how assignment clauses get misused to waste sellers' time."
 date: "2026-09-15"
@@ -15,11 +15,11 @@ Ask plainly: "Are you the one actually closing on this house, or are you plannin
 
 ## Other Red Flags Worth Watching For
 
-- **No contract ready.** Ask whoever is sitting across from you to show you a purchase agreement, right now, with real terms on it. A real buyer has one ready, because writing offers is the entire job. Most wholesalers do not, they are still trying to figure out if they can find someone else to buy the contract before they commit to anything in writing.
-- **No proof of funds.** A real cash buyer can show you bank statements or a proof of funds letter without hesitation. A wholesaler usually cannot, because there is no cash, there is a plan to find someone else's cash.
-- **No physical office you can verify.** Look up the address. Is it a real office, or a UPS Store box, or nothing at all?
-- **High pressure, today-only urgency.** Real offers do not expire in six hours. That pressure exists to stop you from checking anything.
-- **The price drops after "inspection."** A lot of these outfits never intended to pay the number they opened with. The plan was always to get you comfortable, then come back lower once you have mentally moved on.
+- **No contract ready.** Ask whoever is sitting across from you to show you a purchase agreement, right now, with real terms. A real buyer has one ready, because writing offers is the entire job. Most wholesalers do not, they are still trying to figure out if they can find someone else to buy the contract before they put anything in writing.
+- **No proof of funds.** A real cash buyer can show you past deals, bank statements, or a proof of funds letter without hesitation. A wholesaler usually cannot, because there is no cash, there is a plan to find someone else's cash.
+- **No physical office you can verify.** Look up the address. Is it a real office, a post office PO box, or maybe nothing at all?
+- **High pressure, today-only urgency.** Real offers do not expire in six hours. That pressure exists to stop you from checking if they are legitimate.
+- **The price drops after "inspection."** A lot of these 'investors' never intended to pay the number they opened with. The plan was always to get you comfortable, then come back lower once you have mentally moved on or can't back out.
 - **Nothing to verify.** No completed deals you can look up, no social media, no community presence beyond a Google business profile and a phone number.
 
 ## How Assignment Clauses Actually Work, and How They Get Misused
@@ -44,7 +44,8 @@ This is the part where I will just tell you plainly what to look for, because it
 
 **Verifiable through neutral third parties.** We close through reputable local title and escrow companies, First American, Stewart Title, and Pathway Escrow among them. Call Lupe, Julie, or Amanda directly and ask how many deals we have actually closed with them.
 
-**Real offices you can actually visit.**
+**Real offices, you can actually visit!**
+Monday - Friday 8:00AM to 5:00PM
 
 <figure>
   <img src="/images/office-house-junkies-dorothea.jpg" alt="Legacy Real Estate office at 1814 West Dorothea Ave, Visalia" width="1600" height="1200" loading="lazy" />
@@ -58,17 +59,17 @@ This is the part where I will just tell you plainly what to look for, because it
 
 **Testimonials you can actually check.** Real client reviews are posted on our [Instagram](https://instagram.com/dmcclelland_) and [Facebook](https://www.facebook.com/mcclelland.dominic/) pages, not written by us, not hidden behind a contact form. We also work with real people in the community, from Deal Finders to licensed agents, who can vouch for how we actually operate. See how those [partnerships](/partner) work.
 
-**Visible in the community, not just online.** Billboards, radio spots, and local news coverage cost real money and carry a real name attached to them. That is a different kind of commitment than a call center running the same script in twelve other cities.
+**We are visible in the community, not just online.** Billboards, radio spots, and local news coverage cost real money and carry a real name attached to them. That is a different kind of commitment than a call center running the same script in twelve other cities.
 
 ## Questions to Ask Before You Sign Anything
 
-1. Can I see a purchase agreement with real terms in it right now?
-2. Can you put down a non-refundable deposit?
-3. Are you the one actually closing on this house?
-4. What happens if you cannot close, what does that cost me?
-5. Can I see other properties you have actually purchased?
+1. Can I see a contract with real terms right now?
+2. Can you do a non-refundable deposit?
+3. Are you the one buying this house?
+4. What happens if you cannot close, what does that cost me, what happens next?
+5. Can I see other properties you have actually purchased and renovated?
 
-If any of those questions get dodged, that is your answer.
+If any of those questions get dodged, that is your answer. Not a real buyer!
 
 ## Frequently Asked Questions
 
@@ -89,7 +90,7 @@ The deal typically falls through, sometimes weeks into what you thought was an a
 
 ## Talk to Someone Whose Name Is Actually on the Deal
 
-If you are getting texts and postcards and cannot tell who is actually real, that conversation is free and takes about ten minutes.
+If you are getting texts and postcards and cannot tell who is actually real, that conversation is free and takes me only about ten minutes.
 
 **Call or text (559) 368-8956.**
 
