@@ -22,8 +22,12 @@ function personSchema() {
     "@type": "Person",
     name: "Dominic McClelland",
     url: ORIGIN,
+    image: `${ORIGIN}/images/dominic-headshot.jpg`,
     jobTitle: "Operations Manager",
-    worksFor: { "@type": "Organization", name: "House Junkies Inc." },
+    worksFor: [
+      { "@type": "Organization", name: "House Junkies Inc." },
+      { "@type": "Organization", name: "Ulloa Investment Group" },
+    ],
     address: {
       "@type": "PostalAddress",
       streetAddress: "801 W Main Street",
