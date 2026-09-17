@@ -32,11 +32,11 @@ As of January 1, 2025, California law added a real tool for homeowners who want 
 ## Your 5 Options If You Are Facing Foreclosure
 
 **1. Re-instatement.** Pay the full past-due amount and the foreclosure stops. The hard part is obviously having that amount available. If you are facing hardship, a HUD-approved housing counselor can also tell you what assistance is currently available, and it is always free! Never pay anyone upfront for mortgage relief help, that is illegal in California under SB 94.
-- **Pro:** Stops the foreclosure outright, nothing restructured or owed differently, just brought current.
+- **Pro:** Stops the foreclosure outright, nothing restructured or owed differently, just brought current. Easiest option!
 - **Con:** Requires having the full past-due amount available all at once, which is usually the problem in the first place.
 
 **2. Loan Modification.** Your lender adjusts the terms of your existing mortgage, usually a longer repayment timeline in exchange for a different monthly payment. This can stop foreclosure but does not erase what you owe, it restructures it.
-- **Pro:** Stops foreclosure and lowers your monthly payment without needing a lump sum.
+- **Pro:** Stops foreclosure and lowers your monthly payment without a lump sum.
 - **Con:** Doesn't erase the debt, it restructures with a higher intrest rate based on lender approval.
 
 **3. Bankruptcy.** Filing generally triggers an automatic stay that halts foreclosure proceedings, at least temporarily. It is a serious step with a heavy, long-term impact on your credit and future financing, and it should be discussed with a bankruptcy attorney, not decided from a blog post.
@@ -45,10 +45,10 @@ As of January 1, 2025, California law added a real tool for homeowners who want 
 
 **4. List the Property.** List your home with Legacy Real Estate, DRE #02165291, and let the market pay you what the house is actually worth instead of losing that equity at auction. Professional negotiation with your lender, maximum market exposure, and if you are this close to a sale date, the AB 2424 postponement described above.
 - **Pro:** Professional negotiation with your lender, maximum market exposure, and if you are close to a sale date the AB 2424 postponement described above.
-- **Con:** No guaranteed closing date, a listing typically takes 60 - 90 days, so it only works if you can wait for the home to sell.
+- **Con:** No guaranteed closing date, listing typically takes 60-90 days, it works if you can wait for the house to sell.
 
 **5. Cash Offer.** Sell your house as-is directly to House Junkies Inc. Fast cash offer, short sale assistance if you are underwater, closing in as little as 14 days, no closing costs or fees. We also offer moving assistance, first month's rent, and junk removal at no charge when you need it.
-- **Pro:** Fast, certain, and handled for you, cash offer, no closing costs, moving assistance, first month's rent, and junk removal included!
+- **Pro:** Fast, certain, and handled for you, cash offer, no closing costs, moving assistance, first month's rent, and junk removal included! **(559) 368-8956**
 
 ## Frequently Asked Questions
 
