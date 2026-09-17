@@ -8,12 +8,12 @@ export type PageMeta = {
   noindex?: boolean;
 };
 
-const KNOWN_PATHS = new Set(["/", "/work", "/blog", "/privacy", "/terms", "/partner"]);
+const KNOWN_PATHS = new Set(["/", "/experience", "/blog", "/privacy", "/terms", "/partner"]);
 
 export function metaFor(pathname: string): PageMeta {
   const path = pathname.replace(/\/+$/, "") || "/";
 
-  if (path === "/work") {
+  if (path === "/experience") {
     return {
       path,
       title: `Work Experience - ${site.name}`,
