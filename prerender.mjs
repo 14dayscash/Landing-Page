@@ -236,7 +236,7 @@ for (const route of routes) {
   const canonical = `${ORIGIN}${route === "/" ? "/" : route}`;
 
   let breadcrumbItems = [{ name: "Home", url: `${ORIGIN}/` }];
-  if (route === "/work") {
+  if (route === "/experience") {
     breadcrumbItems.push({ name: "Work Experience", url: canonical });
   } else if (route === "/blog") {
     breadcrumbItems.push({ name: "Blog", url: canonical });
