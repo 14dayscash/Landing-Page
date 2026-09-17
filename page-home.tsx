@@ -1,6 +1,7 @@
 import { About } from "./about";
 import { BlogHighlights } from "./blog-highlights";
 import { Contact } from "./contact";
+import { GoogleReviewBanner } from "./google-review-banner";
 import { Hero } from "./hero";
 
 export function HomePage() {
@@ -10,6 +11,7 @@ export function HomePage() {
       <About />
       <Contact />
       <BlogHighlights />
+      <GoogleReviewBanner />
     </>
   );
 }
