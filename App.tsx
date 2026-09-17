@@ -45,7 +45,7 @@ export function App() {
       <main id="main">
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/work" element={<WorkPage />} />
+          <Route path="/experience" element={<WorkPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/:slug" element={<PostPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
