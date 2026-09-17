@@ -20,7 +20,7 @@ California is a non-judicial foreclosure state, meaning the process runs through
 1. **120 or more days delinquent.** Federal law generally requires your servicer to wait until you are at least 120 days behind before starting foreclosure.
 2. **Notice of Default (NOD) recorded.** This is the formal start. It gets recorded with the county and mailed to you, and it opens a 90-day window to reinstate the loan by paying what you owe.
 3. **90-day reinstatement period.** Pay the past-due amount during this window and the lender cannot proceed. You can still reinstate up until 5 business days before the eventual sale date, this window does not fully close at day 90.
-4. **Notice of Trustee Sale (NOTS).** If the default is not cured, the trustee can record this, setting the sale date. It has to be recorded at least 20 days before the sale.
+4. **Notice of Trustee Sale (NOTS).** If the default is not cured, the trustee can record this, setting the sale date. It has to be recorded 20 days before the sale.
 5. **Trustee sale.** The auction itself. California gives no redemption period afterward, once the sale happens, there is no getting the house back the way some other states allow.
 
 Add it up and the realistic minimum from your first missed payment to an actual sale is around 230 days, roughly seven and a half months, and it often runs longer in practice. That is not a reason to wait. It is time you can actually use.
@@ -31,15 +31,24 @@ As of January 1, 2025, California law added a real tool for homeowners who want 
 
 ## Your 5 Options If You Are Facing Foreclosure
 
-**1. Re-instatement.** Pay the full past-due amount and the foreclosure stops. The hard part is obviously having that amount available. If your hardship is tied to a declared disaster like a wildfire or flood, the CalAssist Mortgage Fund may be able to help with up to $100,000. A HUD-approved housing counselor can also tell you what assistance is currently available, and it is always free. Never pay anyone upfront for mortgage relief help, that is illegal in California under SB 94.
+**1. Re-instatement.** Pay the full past-due amount and the foreclosure stops. The hard part is obviously having that amount available. If you are facing hardship, a HUD-approved housing counselor can also tell you what assistance is currently available, and it is always free! Never pay anyone upfront for mortgage relief help, that is illegal in California under SB 94.
+- **Pro:** Stops the foreclosure outright, nothing restructured or owed differently, just brought current.
+- **Con:** Requires having the full past-due amount available all at once, which is usually the problem in the first place.
 
 **2. Loan Modification.** Your lender adjusts the terms of your existing mortgage, usually a longer repayment timeline in exchange for a different monthly payment. This can stop foreclosure but does not erase what you owe, it restructures it.
+- **Pro:** Stops foreclosure and lowers your monthly payment without needing a lump sum.
+- **Con:** Doesn't erase the debt, it restructures with a higher intrest rate based on lender approval.
 
 **3. Bankruptcy.** Filing generally triggers an automatic stay that halts foreclosure proceedings, at least temporarily. It is a serious step with a heavy, long-term impact on your credit and future financing, and it should be discussed with a bankruptcy attorney, not decided from a blog post.
+- **Pro:** The automatic stay halts the foreclosure process the moment you file.
+- **Con:** Heavy, long-term impact on your credit and future financing, and it should be discussed with an attorney.
 
 **4. List the Property.** List your home with Legacy Real Estate, DRE #02165291, and let the market pay you what the house is actually worth instead of losing that equity at auction. Professional negotiation with your lender, maximum market exposure, and if you are this close to a sale date, the AB 2424 postponement described above.
+- **Pro:** Professional negotiation with your lender, maximum market exposure, and if you are close to a sale date the AB 2424 postponement described above.
+- **Con:** No guaranteed closing date, a listing typically takes 60 - 90 days, so it only works if you can wait for the home to sell.
 
 **5. Cash Offer.** Sell your house as-is directly to House Junkies Inc. Fast cash offer, short sale assistance if you are underwater, closing in as little as 14 days, no closing costs or fees. We also offer moving assistance, first month's rent, and junk removal at no charge when you need it.
+- **Pro:** Fast, certain, and handled for you, cash offer, no closing costs, moving assistance, first month's rent, and junk removal included!
 
 ## Frequently Asked Questions
 
