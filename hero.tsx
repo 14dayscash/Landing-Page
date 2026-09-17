@@ -32,7 +32,7 @@ export function Hero() {
                 </a>
               </Button>
               <Button asChild variant="outline">
-                <Link to="/work">Work Experience</Link>
+                <Link to="/experience">Work Experience</Link>
               </Button>
             </div>
           </div>
