@@ -8,7 +8,7 @@ import { metaFor } from "./seo";
 export function routes() {
   return [
     "/",
-    "/work",
+    "/experience",
     "/blog",
     "/privacy",
     "/terms",
