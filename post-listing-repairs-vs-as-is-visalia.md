@@ -15,7 +15,7 @@ Buyers using financing need the house to pass inspection and appraisal. That mea
 
 - **Roof.** If it is near the end of its life or damaged, expect $5,000 to $13,000 for a replacement, averaging around $9,500 depending on size and material.
 - **HVAC.** A full system replacement runs $6,000 to $15,500 in most cases, and can climb toward $28,000 for larger homes or high-efficiency systems. FHA and VA loans specifically require working heat and air, or the inspector will flag.
-- **Electrical and plumbing.** Older panels, knob-and-tube wiring, or failing galvanized pipe are common inspection flags in older Visalia houses, and buyers' lenders will not close until they are addressed.
+- **Electrical and plumbing.** Older panels, knob-and-tube wiring, or failing galvanized pipe are common inspection flags in older homes, and buyers' lenders will not close until they are addressed.
 - **Foundation and structural issues.** Even minor settling cracks can trigger a request for a structural engineer's report, which can stall a sale for weeks before repairs could even be started.
 - **Paint, flooring, and cosmetic work.** Not required by any lender, but competing against move-in-ready listings usually means doing it anyway.
 - **Pest and termite clearance.** VA and many FHA loans require a clear termite report before closing. If there is active damage to the home, that repair happens before the buyer's loan can fund.
