@@ -57,7 +57,7 @@ Monday - Friday 8:00AM to 5:00PM
   <figcaption>House Junkies Inc., 801 West Main Street, Visalia</figcaption>
 </figure>
 
-**Testimonials you can actually check.** Real client reviews are posted on our [Instagram](https://instagram.com/dmcclelland_) and [Facebook](https://www.facebook.com/mcclelland.dominic/) pages, not written by us, not hidden behind a contact form. We also work with real people in the community, from Deal Finders to licensed agents, who can vouch for how we actually operate. See how those [partnerships](/partner) work.
+**Testimonials you can actually check.** Real client reviews are posted on our [Instagram](https://instagram.com/dmcclelland_) and [Facebook](https://www.facebook.com/mcclelland.dominic/) pages, not written by us, not hidden behind a contact form. We also work with real people in the community, from Deal Finders to licensed agents, who can vouch for how we actually operate. See how those [partnerships](/partner) work, or how they actually [pay out](/blog/partner-referral-programs-payout).
 
 **We are visible in the community, not just online.** Billboards, radio spots, and local news coverage cost real money and carry a real name attached to them. That is a different kind of commitment than a call center running the same script in twelve other cities.
 
