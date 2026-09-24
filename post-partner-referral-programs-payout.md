@@ -2,10 +2,10 @@
 title: "How Our Partner and Referral Programs Actually Pay Out"
 metaTitle: "House Junkies Partner and Referral Program Payout Explained"
 description: "How House Junkies' partner and referral programs actually work in Visalia, from a one-time $2,000 referral to funding flips as a passive capital partner."
-date: "2026-09-21"
+date: "2026-09-23"
 ---
 
-*By Dominic McClelland | Updated 09/21/2026*
+*By Dominic McClelland | Updated 09/23/2026*
 
 House Junkies has paid out more than $1,000,000 to people who never worked a day for the company. Some of them just knew about a house that needed to sell and made one phone call. Others put their own money into a deal alongside us and shared in what it made. That kind of payout volume is part of why SFR Analytics ranked us [the #1 investor in Visalia by transaction volume](/blog/sfr-analytics-top-visalia-investors-2026), we close enough deals that referrals and partnerships add up fast. I want to walk through every single way to get paid working with House Junkies, because there is a real chance one of these fits you right now, whether you have an address, a license, or capital sitting around doing nothing.
 
