@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Container } from "./container";
 import { site } from "./site";
 
@@ -228,6 +229,17 @@ export function PartnerPage() {
           </p>
 
           <p className="mt-10 max-w-3xl text-lede text-foreground">
+            Want to see how these actually pay out in practice? Read{" "}
+            <Link
+              to="/blog/partner-referral-programs-payout"
+              className="text-accent hover:underline"
+            >
+              how our partner and referral programs actually pay out
+            </Link>
+            .
+          </p>
+
+          <p className="mt-4 max-w-3xl text-lede text-foreground">
             Want to talk through which one fits? Call or text{" "}
             <a href={site.phoneHref} className="text-accent hover:underline">
               {site.phone}
