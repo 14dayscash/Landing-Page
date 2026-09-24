@@ -69,7 +69,7 @@ The structure creates lanes for a few other people too.
 
 **If you are a real estate agent -** Representing a seller with a property better suited to an investor than the MLS? We purchase directly, close quickly, and we pay commissions. Agents who bring us deals regularly become preferred investment agents.
 
-**If you are another investor -** Joint ventures, funding projects, passive positions, partnering on acquisitions. You are scaling alongside a team that closed 350+ projects and $45M+ in volume rather than learning on your own dollar.
+**If you are another investor -** Joint ventures, funding projects, passive positions, partnering on acquisitions. You are scaling alongside a team that closed 350+ projects and $45M+ in volume rather than learning on your own dollar. We broke down exactly what each of these [pays out](/blog/partner-referral-programs-payout) in a separate post.
 
 **If you want to build -** House Junkies Construction takes outside work, not just our own flips. ADUs especially. If you are adding rental income or building for family on your existing lot, we handle design, permitting, construction, and delivery.
 
