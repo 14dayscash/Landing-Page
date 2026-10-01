@@ -59,7 +59,7 @@ Pre-foreclosure is the window after you fall behind but before the home is sold,
 California uses non-judicial foreclosure through a trustee, no courtroom involved in most cases. A Notice of Default starts a 90-day reinstatement window, followed by a Notice of Trustee Sale requiring at least 20 days' notice, then the sale itself.
 
 **What is deed in lieu of foreclosure?**
-It is an agreement where you voluntarily transfer the property title to your lender to satisfy the debt and avoid a formal foreclosure sale. It can be less damaging to your credit than a completed foreclosure, but the lender has to agree to it, and it is not always offered.
+It is an agreement where you voluntarily transfer the property title to your lender to satisfy the debt and avoid a formal foreclosure sale. It can be less damaging to your credit than a completed foreclosure, but the lender has to agree to it, and it is not always offered. Any other liens on the property, like unpaid property taxes or a contractor's lien, still have to be sorted out separately, we [cover how that works](/blog/liens-lawsuits-delinquencies-visalia) in more detail.
 
 **Do I need a foreclosure attorney?**
 Not always, but for bankruptcy, deed in lieu negotiations, or any dispute with your servicer about the numbers, a foreclosure defense attorney is worth the conversation. For a straightforward sale, whether listing or a direct cash offer, that is where we can help without needing one.
