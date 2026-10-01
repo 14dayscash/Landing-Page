@@ -42,7 +42,7 @@ Two tools we use regularly to get families paid faster than waiting for a full p
 
 **Assignment of interest.** If you are an heir with a right to a share of the estate but the estate has not closed yet, you can assign that interest to us for a cash payment now instead of waiting out the process. This is a well established, legal mechanism, and California courts (Probate Code Section 11604) actively review these assignments to make sure the consideration is fair and that nobody was pressured into signing. We do these by the book, in writing, reviewed by counsel.
 
-**Direct deed acquisitions.** Once a personal representative has authority to sell, or once the property has actually distributed to the heirs, we can close by deed directly, an Administrator's or Executor's Deed if the estate is selling, or a standard grant deed once title has passed to the heirs. Either path avoids unnecessary extra steps once the legal authority to sell is actually in place.
+**Direct deed acquisitions.** Once a personal representative has authority to sell, or once the property has actually distributed to the heirs, we can close by deed directly, an Administrator's or Executor's Deed if the estate is selling, or a standard grant deed once title has passed to the heirs. Either path avoids unnecessary extra steps once the legal authority to sell is actually in place. If the estate also has unpaid property taxes or other liens attached to it, those get resolved directly too, [here is how](/blog/liens-lawsuits-delinquencies-visalia).
 
 Which path applies depends entirely on where your specific estate is in the process. That is exactly what the consult call is for.
 
